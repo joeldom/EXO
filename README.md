@@ -15,10 +15,11 @@ Working on making things sound, look, and work better. Human designed. AI DevOps
    b. + profile & banner
    c. register [x.com dev](https://developer.x.com/en/portal/projects/1948798860660260864/apps/31259049/keys)
 3. connect & verify x with gmail
-4. create [`github.com/repo](https://github.com/joeldom/exo)
-5. create discord webhook
+4. create [github.com/repo](https://github.com/joeldom/exo)
+5. create [Bitly tracking](bit.ly/46tL4TS) `bit.ly/46tL4TS`
+6. create discord webhook
    a. `server settings` > `integrations`
-6. use Claude to write cron job
-7. write `discord.js` lib
-8. setup `twitter-api-v2` (Node.js)
-9. testing TBD
+7. use Claude to write cron job
+8. write `discord.js` lib
+9. setup `twitter-api-v2` (Node.js)
+10. testing TBD
