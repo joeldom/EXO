@@ -5,3 +5,5 @@
 Working on making things sound, look, and work better. Human designed. AI DevOps & marketing.
 
 ![EXO Dev portal](https://developer.x.com/en/portal/projects/1948798860660260864/apps)
+
+<img width="679" height="379" alt="EXO Launch-v2" src="https://github.com/user-attachments/assets/aea33a9d-733b-4242-8dd3-4094c80972cc" />
