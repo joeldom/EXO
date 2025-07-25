@@ -26,3 +26,6 @@ Working on making things sound, look, and work better. Human designed. AI DevOps
 9. use [discord.js Doc](https://discord.js.org/) to write to `discord.js` > `exo/lib`
 10. pull [twitter-api-v2](https://www.npmjs.com/package/twitter-api-v2) to setup `twitter-api-v2` (Node.js)
 11. setup *Github Actions* to run scripts and cron 
+
+### refs
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f983bdb8-c5af-4b46-bc4b-e82f9c4f7bb6" />
