@@ -3,3 +3,5 @@
 # exo
 
 Working on making things sound, look, and work better. Human designed. AI DevOps & marketing.
+
+![EXO Dev portal](https://developer.x.com/en/portal/projects/1948798860660260864/apps)
