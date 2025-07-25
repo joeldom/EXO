@@ -7,3 +7,18 @@ Working on making things sound, look, and work better. Human designed. AI DevOps
 ![EXO Dev portal](https://developer.x.com/en/portal/projects/1948798860660260864/apps)
 
 <img width="679" height="379" alt="EXO Launch-v2" src="https://github.com/user-attachments/assets/aea33a9d-733b-4242-8dd3-4094c80972cc" />
+
+## Account instancing
+1. create gmail account
+2. sign up for x.com account
+   a. claim + confirn username
+   b. + profile & banner
+   c. register [x.com dev](https://developer.x.com/en/portal/projects/1948798860660260864/apps/31259049/keys)
+3. connect & verify x with gmail
+4. create [`github.com/repo](https://github.com/joeldom/exo)
+5. create discord webhook
+   a. `server settings` > `integrations`
+6. use Claude to write cron job
+7. write `discord.js` lib
+8. setup `twitter-api-v2` (Node.js)
+9. testing TBD
