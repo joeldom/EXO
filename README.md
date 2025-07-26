@@ -2,7 +2,11 @@
 <img title="EXO Logo" alt="EXO Logo" style="display:inline;width:200px;height:200px;" src="https://pbs.twimg.com/profile_images/1948746849994584064/iqWWKOvc_400x400.jpg"><img title="EXO Logo" alt="EXO Logo" style="display:inline;width:auto;height:200px;" src="https://pbs.twimg.com/profile_banners/1948686367573291008/1753445934/1500x500">
 # [EXO](https://x.com/ecco_exo)
 Working on making things sound, look, and work better. Human designed. AI DevOps & marketing.
-
+```
+User Input → AI Agent → Content Review → Multi-Platform Posting
+     ↓           ↓            ↓              ↓
+ Ideas/Topics → Generated → Human Approval → Twitter + Discord
+```   
 ## Account Init
 1. create gmail account
 2. sign up for x.com account
