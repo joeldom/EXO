@@ -26,24 +26,26 @@ Working on making things sound, look, and work better. Human designed. AI DevOps
     a. [X API v2 authentication mapping](https://docs.x.com/fundamentals/authentication/guides/v2-authentication-mapping)
 13. setup *Github Actions* to run scripts and cron
 14. test [webhook data payload](https://discord.com/developers/docs/resources/webhook) to Discord
+15. create [test page](https://www.gitkraken.com/pricing?source=gitkraken) for fund + follow alerts
 
-## Launch
+### 7.25 Launch
+EXO launch v1 Cross Platform Release servicing account + content post. Read more about timeline integration, automation, data stream benchmark & UX Strategy. `http://bit.ly/46tL4TS`
 <img width="679" height="379" alt="EXO Launch-v2" src="https://github.com/user-attachments/assets/aea33a9d-733b-4242-8dd3-4094c80972cc" />
 
-### refs
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f983bdb8-c5af-4b46-bc4b-e82f9c4f7bb6" />
+<!-- ### refs -->
+<!-- <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f983bdb8-c5af-4b46-bc4b-e82f9c4f7bb6" /> -->
 
-![AKIRA-Comparison-Footage_004](https://github.com/user-attachments/assets/8a230993-3a84-4bc0-b280-c1e24ca65fc6)
+<!-- ![AKIRA-Comparison-Footage_004](https://github.com/user-attachments/assets/8a230993-3a84-4bc0-b280-c1e24ca65fc6)-->
+<!-- ![AKIRA-Comparison-Footage_002](https://github.com/user-attachments/assets/355866b8-34ef-40a4-9533-d7a5e438a107)-->
+<!-- ![AKIRA-Comparison-Footage_002](https://github.com/user-attachments/assets/355866b8-34ef-40a4-9533-d7a5e438a107)-->
 
-![AKIRA-Comparison-Footage_002](https://github.com/user-attachments/assets/355866b8-34ef-40a4-9533-d7a5e438a107)
+<!-- ![7_be2ff446-a89a-4092-afce-7dc41f97b435](https://github.com/user-attachments/assets/f62c22f2-b81a-4488-92c2-46bcbe0ab1fa)-->
 
-![7_be2ff446-a89a-4092-afce-7dc41f97b435](https://github.com/user-attachments/assets/f62c22f2-b81a-4488-92c2-46bcbe0ab1fa)
+<!-- ![1_7a7fdfdd-8b70-4261-bda3-809c4e8571fd](https://github.com/user-attachments/assets/9ef54586-1b3e-4366-a03d-51b60d3293a9)-->
 
-![1_7a7fdfdd-8b70-4261-bda3-809c4e8571fd](https://github.com/user-attachments/assets/9ef54586-1b3e-4366-a03d-51b60d3293a9)
+<!-- ![F_R77WGWwAANZ9K](https://github.com/user-attachments/assets/32821048-077b-4be1-844b-bfdb1a05e435)-->
 
-![F_R77WGWwAANZ9K](https://github.com/user-attachments/assets/32821048-077b-4be1-844b-bfdb1a05e435)
+<!-- ![513385079_18513251422025529_3357303030026765645_n](https://github.com/user-attachments/assets/8f0dbda1-eec4-46e6-922e-c8b1cc7ed46a)-->
 
-![513385079_18513251422025529_3357303030026765645_n](https://github.com/user-attachments/assets/8f0dbda1-eec4-46e6-922e-c8b1cc7ed46a)
-
-![27280-1515191364](https://github.com/user-attachments/assets/f26e95ae-9fb6-44f4-986f-c8dc267c6a28)
+<!-- ![27280-1515191364](https://github.com/user-attachments/assets/f26e95ae-9fb6-44f4-986f-c8dc267c6a28)-->
 
