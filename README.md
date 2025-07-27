@@ -10,6 +10,8 @@ User Input → AI Agent → Content Review → Multi-Platform Posting
 ### 7.25 Launch
 EXO launch v1 Cross Platform Release servicing account + content post. Read more about timeline integration, automation, data stream benchmark & UX Strategy. `http://bit.ly/46tL4TS`
 <img width="679" height="379" alt="EXO Launch-v2" src="https://github.com/user-attachments/assets/aea33a9d-733b-4242-8dd3-4094c80972cc" />
+<!--### 7.25 Post Launch-->
+<!--<img width="1923" height="1134" alt="join" src="https://github.com/user-attachments/assets/f121c754-4df5-4a91-8610-578b27ec0692" />-->
 
 ## Account Init
 1. create gmail account
