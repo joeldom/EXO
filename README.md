@@ -36,6 +36,9 @@ User Input → AI Agent → Content Review → Multi-Platform Posting
 EXO launch v1 Cross Platform Release servicing account + content post. Read more about timeline integration, automation, data stream benchmark & UX Strategy. `http://bit.ly/46tL4TS`
 <img width="679" height="379" alt="EXO Launch-v2" src="https://github.com/user-attachments/assets/aea33a9d-733b-4242-8dd3-4094c80972cc" />
 
+### 8.11 Update
+Setting up go live notification messages + prompts to use with OBS & Twitch that displays on Discord status [Project + issue](https://github.com/users/joeldom/projects/9/views/1?pane=issue&itemId=123799890&issue=joeldom%7CEXO%7C1)
+
 <!-- ### refs -->
 <!-- <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f983bdb8-c5af-4b46-bc4b-e82f9c4f7bb6" /> -->
 
