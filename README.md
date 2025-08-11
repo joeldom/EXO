@@ -6,7 +6,13 @@ Working on making things sound, look, and work better. Human designed. AI DevOps
 User Input → AI Agent → Content Review → Multi-Platform Posting
      ↓           ↓            ↓              ↓
  Ideas/Topics → Generated → Human Approval → Twitter + Discord
-```   
+```
+### 7.25 Launch
+EXO launch v1 Cross Platform Release servicing account + content post. Read more about timeline integration, automation, data stream benchmark & UX Strategy. `http://bit.ly/46tL4TS`
+<img width="679" height="379" alt="EXO Launch-v2" src="https://github.com/user-attachments/assets/aea33a9d-733b-4242-8dd3-4094c80972cc" />
+<!--### 7.25 Post Launch-->
+<!--<img width="1923" height="1134" alt="join" src="https://github.com/user-attachments/assets/f121c754-4df5-4a91-8610-578b27ec0692" />-->
+
 ## Account Init
 1. create gmail account
 2. sign up for x.com account
@@ -32,9 +38,153 @@ User Input → AI Agent → Content Review → Multi-Platform Posting
 14. test [webhook data payload](https://discord.com/developers/docs/resources/webhook) to Discord
 15. create [test page](https://www.gitkraken.com/pricing?source=gitkraken) for fund + follow alerts
 
-### 7.25 Launch
-EXO launch v1 Cross Platform Release servicing account + content post. Read more about timeline integration, automation, data stream benchmark & UX Strategy. `http://bit.ly/46tL4TS`
-<img width="679" height="379" alt="EXO Launch-v2" src="https://github.com/user-attachments/assets/aea33a9d-733b-4242-8dd3-4094c80972cc" />
+## Setup
+1. install dependancies
+   `npm install`
+3. environment setup
+   `cp .env.example .env`
+```
+# AI Service (choose one)
+OPENAI_API_KEY=your_openai_api_key
+ANTHROPIC_API_KEY=your_anthropic_api_key
+
+# Twitter/X API v2
+TWITTER_API_KEY=your_twitter_api_key
+TWITTER_API_SECRET=your_twitter_api_secret
+TWITTER_ACCESS_TOKEN=your_access_token
+TWITTER_ACCESS_TOKEN_SECRET=your_access_token_secret
+TWITTER_BEARER_TOKEN=your_bearer_token
+
+# Discord
+DISCORD_BOT_TOKEN=your_discord_bot_token
+DISCORD_CHANNEL_ID=your_channel_id
+
+# Application Settings
+PORT=3000
+NODE_ENV=development
+```
+5. configure API keys
+
+Twitter/X API Setup
+   1. Visit developer.twitter.com
+   2. Create a new app in your developer dashboard
+   3. Generate API keys and access tokens
+   4. Ensure your app has Read and Write permissions
+   5. Save credentials to your `.env` file
+   
+Discord Bot Setup
+   1. Go to Discord Developer Portal
+   2. Create a new application
+   3. Navigate to "Bot" section and create a bot
+   4. Copy the bot token
+   5. Invite bot to your server with "Send Messages" permission
+   6. Get your channel ID (Enable Developer Mode → Right-click channel → Copy ID)
+   
+OpenAI
+   1. Visit [OpenAI API](https://platform.openai.com/api-keys)
+   2. Create an API key
+   3. Add to `.env` file
+   
+Anthropic
+   1. Visit [Anthropic Console](https://console.anthropic.com)
+   2. Generate an API key
+   3. Add to `.env` file
+
+### Usage
+#### Start the App
+```
+# Development mode with hot reload
+npm run dev
+
+# Production mode
+npm start
+```
+---
+
+### Content Workflow
+1. Launch CLI
+   `npm run create-post`
+2. Content collab > provide topic idea
+3. Agent Round 1 1st pass
+4. Iterate > Refine
+5. Review > Schedule > Approve
+6. Content arrives > X.com + Discord (channel)
+
+**example 1**
+```
+$ npm run create-post
+
+🤖 AI Agent: What would you like to post about today?
+
+👤 You: I want to share thoughts about the future of AI development
+
+🤖 AI Agent: Here are some content options:
+
+Option 1: "The future of AI isn't just about smarter models—it's about creating systems that truly understand context and nuance. What excites you most about AI's next chapter? 🧠✨ #AI #FutureTech"
+
+Option 2: "Watching AI evolve from simple chatbots to reasoning partners has been incredible. The next frontier? AI that doesn't just process information, but genuinely collaborates with human creativity 🚀 #AIFuture"
+
+👤 You: I like option 2, but can we make it more conversational?
+
+🤖 AI Curator: How about: "Remember when AI was just autocomplete? Now we're building thinking partners that spark creativity rather than replace it. What's the coolest AI collaboration you've experienced? 💭✨ #AIFuture"
+
+👤 You: Perfect! Let's post it.
+
+✅ Posted to Twitter: [link]
+✅ Posted to Discord: [link]
+```
+**example 2**
+```
+$ npm run create-post
+
+🤖 AI Curator: What are we making today?
+
+👤 You: I have a some new designs I want to add as options to the Shirts section of the Shopify page
+
+🤖 AI Agent: Here are some content options:
+
+Option 1: "The future of AI isn't just about smarter models—it's about creating systems that truly understand context and nuance. What excites you most about AI's next chapter? 🧠✨ #AI #FutureTech"
+
+Option 2: "Watching AI evolve from simple chatbots to reasoning partners has been incredible. The next frontier? AI that doesn't just process information, but genuinely collaborates with human creativity 🚀 #AIFuture"
+
+👤 You: I like option 2, but can we make it more conversational?
+
+🤖 AI Curator: How about: "Remember when AI was just autocomplete? Now we're building thinking partners that spark creativity rather than replace it. What's the coolest AI collaboration you've experienced? 💭✨ #AIFuture"
+
+👤 You: Perfect! Let's post it.
+
+✅ Posted to Twitter: [link]
+✅ Posted to Discord: [link]
+```
+**Scheduling Posts**
+```js
+const schedulePost = {
+  content: "Your post content",
+  scheduledFor: "2024-03-15T10:00:00Z",
+  platforms: ["twitter", "discord"]
+};
+```
+**Project Structure**
+```
+├── src/
+│   ├── services/
+│   │   ├── ai-service.js      # AI API integration
+│   │   ├── twitter-service.js # Twitter posting logic
+│   │   └── discord-service.js # Discord posting logic
+│   ├── utils/
+│   │   ├── content-formatter.js # Platform-specific formatting
+│   │   └── validator.js        # Content validation
+│   ├── cli/
+│   │   └── interactive.js      # CLI interface
+│   └── app.js                  # Main application
+├── config/
+│   └── platforms.js           # Platform configurations
+├── logs/
+│   └── content-history.json   # Posted content log
+├── .env.example
+├── package.json
+└── README.md
+```
 
 ### 8.11 Update
 Setting up go live notification messages + prompts to use with OBS & Twitch that displays on Discord status [Project + issue](https://github.com/users/joeldom/projects/9/views/1?pane=issue&itemId=123799890&issue=joeldom%7CEXO%7C1)
