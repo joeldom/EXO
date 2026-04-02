@@ -1,9 +1,3 @@
-
-<!-- <img title="EXO Logo" alt="EXO Logo" style="display:inline;width:200px;height:200px;" src="https://pbs.twimg.com/profile_images/1948746849994584064/iqWWKOvc_400x400.jpg"> -->
-<img title="EXO Logo" alt="EXO Logo" style="display:inline-block;width:150px;height:150px;" src="https://pbs.twimg.com/profile_images/1948797731247435777/l39Djua6_400x400.jpg"><img title="EXO Logo" alt="EXO Logo" style="display:inline-block;height:150px;" src="https://pbs.twimg.com/profile_banners/1948686367573291008/1753445934/1500x500">
-
-`https://pbs.twimg.com/profile_images/1948797731247435777/l39Djua6_400x400.jpg`
-
 <img title="EXO Logo" alt="EXO Logo" style="display:inline;width:200px;height:200px;" src="https://pbs.twimg.com/profile_images/1948797731247435777/l39Djua6_400x400.jpg"><img title="EXO Logo" alt="EXO Logo" style="display:inline;width:auto;height:200px;" src="https://pbs.twimg.com/profile_banners/1948686367573291008/1753445934/1500x500">
 
 
@@ -171,6 +165,11 @@ const schedulePost = {
   platforms: ["twitter", "discord"]
 };
 ```
+**Social Preview**
+<!-- <img title="EXO Logo" alt="EXO Logo" style="display:inline;width:200px;height:200px;" src="https://pbs.twimg.com/profile_images/1948746849994584064/iqWWKOvc_400x400.jpg"> -->
+<img title="EXO Logo" alt="EXO Logo" style="display:inline-block;width:150px;height:150px;" src="https://pbs.twimg.com/profile_images/1948797731247435777/l39Djua6_400x400.jpg"><img title="EXO Logo" alt="EXO Logo" style="display:inline-block;height:150px;" src="https://pbs.twimg.com/profile_banners/1948686367573291008/1753445934/1500x500">
+
+`https://pbs.twimg.com/profile_images/1948797731247435777/l39Djua6_400x400.jpg`
 **Project Structure**
 ```
 ├── src/
